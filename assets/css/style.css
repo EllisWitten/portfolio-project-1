@@ -10,6 +10,9 @@ body{
     color: #3a3a3a;
 }
 /* header */
+header{
+    height: 200px;
+}
 h1, h2{
     font-family: montserrat, sans-serif;
     line-height: 125px;
@@ -28,4 +31,19 @@ h1, h2{
 #sign-up:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+/* grid */
+
+#grid{
+    display: grid;
+    grid: 300px 300px/ auto auto auto;
+
+    width: 80%;
+    height: 60%;
+    margin: 100px auto;
+
+    background-color: #3a3a3a;
+}
+#grid div{
+    color: white;
 }
