@@ -18,9 +18,14 @@ h1, h2{
     float: left;
     font-size: 260%;
     margin-left: 200px;
+    cursor: pointer;
 }
 #sign-up{
     float: right;
     margin-right: 200px;
-    font-size: 180%;
+    font-size: 120%;
+}
+#sign-up:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
