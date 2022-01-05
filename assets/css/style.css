@@ -54,7 +54,6 @@ h1, h2{
     width: 70%;
     height: 40%;
     margin: 20px auto;
-
 }
 #grid-item-1{
     grid-column: 1/ 3;
@@ -63,8 +62,7 @@ h1, h2{
     background-image: url(../images/pexels-scott-webb-305821.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    
+    background-position: center;   
 }
 #grid-item-2{
     background-color: #d7d8d3;
@@ -90,24 +88,38 @@ h1, h2{
     margin-top: 0;
 }
 #grid-item-4{
-    background-color: #ecf0f1;
+    background-color: #eceff0;
     background-image: url(../images/pexels-karolina-grabowska-4198023.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
     
     padding-bottom: 40px;
-
 }
 #grid-item-4 h2, #grid-item-4 p{
     text-align: center;
-
-
 }
 #grid-item-5{
     grid-row: 2/4;
     grid-column: 3/4;
+
+    background-color: #f6ece2;
+    background-image: url(../images/pexels-eternal-happiness-3326362.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+
+    padding-bottom: 60px;
+    padding-top: 20px;
 }
 #grid-item-6{
-    
+    background-color: #eceff0;
+    background-image: url(../images/20-social-media-icons.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
