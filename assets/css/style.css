@@ -76,19 +76,32 @@ h1, h2{
 #grid-item-3{
     grid-row: 2/4;
 
-    background-color: #ebe7e4;
+    background-color: #e8e7ec;
     background-image: url(../images/pexels-tirachard-kumtanom-733857.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
 
-    color: black;
+    padding-bottom: 60px;
 }
 #grid-item-3 h2, #grid-item-3 p{
     /* float: right; */
     text-align: right;
+    margin-top: 0;
 }
 #grid-item-4{
+    background-color: #ecf0f1;
+    background-image: url(../images/pexels-karolina-grabowska-4198023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    
+    padding-bottom: 40px;
+
+}
+#grid-item-4 h2, #grid-item-4 p{
+    text-align: center;
+
 
 }
 #grid-item-5{
