@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    font-family:  roboto, sans-serif;
+    color: #3a3a3a;
+}
+/* header */
+h1, h2{
+    font-family: montserrat, sans-serif;
+    line-height: 125px;
+}
+#logo{
+    float: left;
+    font-size: 260%;
+    margin-left: 200px;
+}
+#sign-up{
+    float: right;
+    margin-right: 200px;
+    font-size: 180%;
+}
