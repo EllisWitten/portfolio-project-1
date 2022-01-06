@@ -13,6 +13,9 @@ body{
 header{
     height: 100px;
 }
+header a:visited{
+    color: inherit;
+}
 h1, h2{
     font-family: montserrat, sans-serif;
     line-height: 125px;
