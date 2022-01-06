@@ -35,3 +35,37 @@ h1, h2{
     text-decoration: underline;
     cursor: pointer;
 }
+/* grid */
+#grid{
+    display: grid;
+    grid: 230px 230px 100px/ 350px 350px 350px;
+    gap: 20px;
+
+    width: 70%;
+    height: 60%;
+    margin: 10px auto;
+
+ 
+}
+#grid div{
+    color: #3a3a3a;
+    border-radius: 10px;
+    font-weight: 700;
+    position: relative;
+    transition-duration: 0.3s;
+}
+[id^="grid-item-"]:hover{
+    filter: drop-shadow(0 0 8px #3a3a3a);
+    transition-duration: 0.3s;
+}
+.page-link{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+#grid div h2, #grid div p{
+    width: 70%;
+    height: 40%;
+    margin: 20px auto;
+}
