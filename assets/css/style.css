@@ -46,12 +46,15 @@ h1, h2{
  
 }
 #grid div{
-    width: fill;
-    height: fill;
     color: #3a3a3a;
     border-radius: 10px;
     font-weight: 700;
     position: relative;
+    transition-duration: 0.3s;
+}
+[id^="grid-item-"]:hover{
+    filter: drop-shadow(0 0 8px #3a3a3a);
+    transition-duration: 0.3s;
 }
 .page-link{
     width: 100%;
