@@ -95,7 +95,6 @@ h1, h2{
     padding-bottom: 60px;
 }
 #grid-item-3 h2, #grid-item-3 p{
-    /* float: right; */
     text-align: right;
     margin-top: 0;
 }
