@@ -46,9 +46,18 @@ h1, h2{
  
 }
 #grid div{
+    width: fill;
+    height: fill;
     color: #3a3a3a;
     border-radius: 10px;
     font-weight: 700;
+    position: relative;
+}
+.page-link{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
 }
 #grid div h2, #grid div p{
     width: 70%;
