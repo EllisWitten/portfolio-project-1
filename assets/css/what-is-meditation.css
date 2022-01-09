@@ -49,7 +49,7 @@ main{
     margin: auto;
     
     display: grid;
-    grid: 100px 400px / 600px 600px;
+    grid: 100px auto / 500px auto;
     gap: 40px;
 }
 .grid-container div{
@@ -60,11 +60,13 @@ main{
     text-align: center;
 }
 .side-image{
+    width: 100%;
     grid-column: 1/2;
     background: url(../images/pexels-pixabay-355863.jpg) no-repeat center;
     background-size: cover;
 }
 .side-text{
+    width: 100%;
     grid-column: 2/3;
     font-size: 120%;
     padding: 10px;
