@@ -48,10 +48,10 @@ main > h2{
 /* grid */
 #grid{
     display: grid;
-    grid: 230px 230px 100px/ 350px 350px 350px;
+    grid: 33% 33% 20%/ 1fr 1fr auto;
     gap: 20px;
 
-    width: 70%;
+    width: 90%;
     height: 60%;
     margin: 10px auto;
  

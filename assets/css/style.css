@@ -19,7 +19,9 @@ header a:visited{
 }
 header h1, header h2{
     font-family: montserrat, sans-serif;
-    line-height: 125px;
+    font-size: 150%;
+    margin-top: 75px;
+    background-color: rgba(225,227,227,.8);
 }
 #logo{
     float: left;
@@ -40,11 +42,10 @@ header h1, header h2{
 
 #grid{
     display: grid;
-    grid: 230px 230px 100px/ 350px 350px auto;
+    grid: 33% 33% 20%/ 1fr 1fr auto;
     gap: 20px;
-
     width: 60%;
-    height: 60%;
+    height: 60vh;
     margin: 80px auto;
 
  
@@ -140,3 +141,20 @@ header h1, header h2{
     margin-left: auto;
     margin-right: auto;
 }
+/* 4K response */
+@media screen and (min-width: 1440px) {
+    #logo{
+        margin-left: 520px;
+    }
+    #sign-up{
+        margin-right: 520px;
+    }
+    #grid{
+        /* border: 20px solid black; */
+        font-size: 135%;
+    }
+    #grid div h2{
+        line-height: 50px;
+        margin-top: 50px;
+    }
+    
