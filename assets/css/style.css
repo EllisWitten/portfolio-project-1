@@ -40,12 +40,12 @@ header h1, header h2{
 
 #grid{
     display: grid;
-    grid: 230px 230px 100px/ 350px 350px 350px;
+    grid: 230px 230px 100px/ 350px 350px auto;
     gap: 20px;
 
-    width: 70%;
+    width: 60%;
     height: 60%;
-    margin: 10px auto;
+    margin: 80px auto;
 
  
 }
