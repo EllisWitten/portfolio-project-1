@@ -8,11 +8,12 @@
 body{
     font-family:  roboto, sans-serif;
     color: #3a3a3a;
-    background: rgb(255,227,227) url(../images/pexels-pixabay-158756.jpg) no-repeat center;
+    /* background: rgb(255,227,227) url(../images/pexels-pixabay-158756.jpg) no-repeat center; */
 }
 /* header */
 header{
     height: 100px;
+    width: 100%;
 }
 header a:visited{
     color: inherit;
@@ -42,7 +43,7 @@ header h1, header h2{
 
 #grid{
     display: grid;
-    grid: 33% 33% 20%/ 1fr 1fr auto;
+    grid: 33% 33% 15%/ 1fr 1fr auto;
     gap: 20px;
     width: 60%;
     height: 60vh;
@@ -141,20 +142,8 @@ header h1, header h2{
     margin-left: auto;
     margin-right: auto;
 }
-/* 4K response */
-@media screen and (min-width: 1440px) {
-    #logo{
-        margin-left: 520px;
+@media screen and (max-width:320px){
+    main{
+        background-color: red;
     }
-    #sign-up{
-        margin-right: 520px;
-    }
-    #grid{
-        /* border: 20px solid black; */
-        font-size: 135%;
-    }
-    #grid div h2{
-        line-height: 50px;
-        margin-top: 50px;
-    }
-    
+}
