@@ -142,7 +142,7 @@ header h1, header h2{
     margin-left: auto;
     margin-right: auto;
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:425px){
     header{
         display: block;
         text-align: center;
@@ -159,11 +159,12 @@ header h1, header h2{
         height: 600%;
     }
     #grid{
-        grid: 200px 200px 200px 200px 200px 200px / 250px;
+        grid: 200px 200px 200px 200px 200px 200px / auto;
         column-gap: 40px;
+        width: 80%;
         height: 300%;
         margin: 30px auto 0 auto;
-        padding: 0 50px 0 0 ;
+        padding: 0 0px 0 0 ;
         /* overflow: hidden; */
     }
     .page-link{
