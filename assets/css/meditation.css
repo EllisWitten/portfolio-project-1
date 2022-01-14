@@ -14,13 +14,18 @@ body{
 /* header */
 header{
     height: 100px;
+    width: 100%;
 }
 header a:visited{
     color: inherit;
 }
 header h1, header h2{
     font-family: montserrat, sans-serif;
-    line-height: 125px;
+    font-size: 150%;
+    margin-top: 75px;
+    background-color: rgba(225,227,227,.8);
+    border-radius: 20px;
+    padding: 5px;
 }
 #logo{
     float: left;
@@ -39,12 +44,15 @@ header h1, header h2{
 }
 /* title */
 main > h2{
-    margin: 20px auto;
+    margin: 60px auto 0 auto;
     width: fit-content;
+    height: fit-content;
     text-align: center;
-    padding: 0;
     font-size: 200%;
     font-weight: 500;
+    background-color: rgba(225,227,227,.8);
+    border-radius: 20px;
+    padding: 5px;
 }
 /* grid */
 #grid{
@@ -134,6 +142,9 @@ main > h2{
     #grid{
         width:70%;
     }
+    #logo{
+        margin-left: 220px;
+    }
 }
 /* tablet and small laptop response */
 @media screen and (max-width:1024px){
@@ -175,6 +186,9 @@ main > h2{
         /* background: red; */
         float: none;
         margin: 10px auto;
+    }
+    main > h2{
+        margin-top: 50px;
     }
     main{
         /* background-color: red; */
