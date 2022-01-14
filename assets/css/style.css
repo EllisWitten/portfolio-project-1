@@ -10,6 +10,7 @@ body{
     color: #3a3a3a;
     background: rgb(255,227,227) url(../images/pexels-pixabay-158756.jpg) no-repeat center;
     background-size: auto;
+    height: 100%;
 }
 /* header */
 header{
@@ -74,6 +75,7 @@ header h1, header h2{
     height: fit-content;
     margin: 20px auto;
     padding: 5px;
+    text-align: center;
 
     background: rgba(225,227,227,.4);
     border-radius: 20px;
@@ -118,9 +120,6 @@ header h1, header h2{
     
     padding-bottom: 40px;
 }
-#grid-item-4 h2, #grid-item-4 p{
-    text-align: center;
-}
 #grid-item-5{
     grid-row: 2/4;
     grid-column: 3/4;
@@ -146,7 +145,7 @@ header h1, header h2{
     margin-left: auto;
     margin-right: auto;
 }
-
+/* double column design */
 @media screen and (max-width:950px) {
     #grid{
         grid: 33% 33% 33%/ 50% 50%;
@@ -166,6 +165,9 @@ header h1, header h2{
     #grid-item-3{
         grid-row: 2/3;
     }
+    #grid-item-3 p{
+        text-align: center;
+    }
     #grid-item-5{
         grid-row: 3/4;
         padding: 0;
@@ -179,6 +181,7 @@ header h1, header h2{
         margin-top: 0;
     }
 }
+/* single column design */
 @media screen and (max-width:713px) {
     header{
         display: block;
