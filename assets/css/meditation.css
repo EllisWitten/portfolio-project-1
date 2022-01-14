@@ -131,7 +131,7 @@ main > h2{
 /* 4k repsonse */
 @media screen and (max-width:2560px) {
     #logo{
-        margin-left: 320px;
+        margin-left: 280px;
     }
     #sign-up{
         margin-right: 320px;
