@@ -8,7 +8,7 @@
 body{
     font-family:  roboto, sans-serif;
     color: #3a3a3a;
-    /* background: rgb(255,227,227) url(../images/pexels-pixabay-158756.jpg) no-repeat center; */
+    background: rgb(255,227,227) url(../images/pexels-pixabay-158756.jpg) no-repeat center;
 }
 /* header */
 header{
@@ -23,6 +23,8 @@ header h1, header h2{
     font-size: 150%;
     margin-top: 75px;
     background-color: rgba(225,227,227,.8);
+    border-radius: 20px;
+    padding: 5px;
 }
 #logo{
     float: left;
@@ -69,12 +71,13 @@ header h1, header h2{
     z-index: 1;
 }
 #grid div h2, #grid div p{
-    width: 70%;
+    width: fit-content;
     height: 30%;
     margin: 20px auto;
+    padding: 5px;
 
     /* line-height: 25px; */
-    background: rgba(225,227,227,.8);
+    background: rgba(225,227,227,.4);
     border-radius: 20px;
 }
 #grid-item-1{
@@ -214,14 +217,14 @@ header h1, header h2{
     }
     #grid div h2{
         margin-top: 20px;
+        height: fit-content;
         text-align: center;
         line-height: auto;
         font-size: 180%;
-        padding: 2px auto;
+        padding: 5px;
     }
     #grid div p{
-        margin: 0px auto 0 auto;
-        line-height: auto;
+        height: fit-content;
         text-align: center;
         font-size: 120%;
         font-weight: 600;
@@ -236,9 +239,9 @@ header h1, header h2{
         grid-row:3/4;
         float: none;
     }
-    #grid-item-3 div p{
-        height: 50%;
-    }
+    /* #grid-item-3 div p{
+        height: fit-content;
+    } */
     #grid-item-4{
         grid-row:4/5;
     }
