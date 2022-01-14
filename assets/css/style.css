@@ -72,7 +72,7 @@ header h1, header h2{
 }
 #grid div h2, #grid div p{
     width: fit-content;
-    height: 30%;
+    height: fit-content;
     margin: 20px auto;
     padding: 5px;
 
@@ -147,8 +147,24 @@ header h1, header h2{
     margin-left: auto;
     margin-right: auto;
 }
-/* tablet response */
-@media screen and (max-width:768px){
+/* 4k repsonse */
+    #grid div{
+        font-size: 120%;
+    }
+    #logo{
+        margin-left: 520px;
+    }
+    #sign-up{
+        margin-right: 520px;
+    }
+/* large laptop response */
+@media screen and (max-width:1440px){
+    #grid{
+        width:70%;
+    }
+}
+/* tablet and small laptop response */
+@media screen and (max-width:1024px){
     header{
         height: 50px;
     }
@@ -200,9 +216,8 @@ header h1, header h2{
         column-gap: 40px;
         width: 80%;
         height: 300%;
-        margin: 10px auto 0 auto;
+        margin: 70px auto 0 auto;
         padding: 0 0 0 0 ;
-        /* overflow: hidden; */
     }
     .page-link{
         left: 0px;
@@ -239,17 +254,11 @@ header h1, header h2{
         grid-row:3/4;
         float: none;
     }
-    /* #grid-item-3 div p{
-        height: fit-content;
-    } */
     #grid-item-4{
         grid-row:4/5;
     }
     #grid-item-5{
         grid-row:5/6;
-    }
-    #grid-item-5 div p{
-        height: 45%;
     }
     #grid-item-6{
         grid-row:6/7;
