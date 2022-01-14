@@ -45,13 +45,11 @@ header h1, header h2{
 
 #grid{
     display: grid;
-    grid: 33% 33% 15%/ 1fr 1fr auto;
+    grid: 33% 33% 15%/ 1fr 1fr 1fr;
     gap: 20px;
     width: 60%;
     height: 70vh;
     margin: 80px auto;
-
- 
 }
 #grid div{
     color: #3a3a3a;
@@ -163,6 +161,12 @@ header h1, header h2{
 }
 /* large laptop response */
 @media screen and (max-width:1440px){
+    #logo{
+        margin-left: 220px;
+    }
+    #sign-up{
+        margin-right: 220px;
+    }
     #grid{
         width:70%;
     }
@@ -179,14 +183,15 @@ header h1, header h2{
         margin: 50px 40px auto 0;
     }
     main{
-        background: green;
+        /* background: green; */
         margin-top: 50px;
+        font-size: 120%;
     }
     #grid{
-        grid: 200px 150px 100px / 200px 200px auto;
+        /* grid: 200px 150px 100px / 200px 200px auto; */
         gap: 20px;
         width: 90%;
-        height: 300%;
+        /* height: 300%; */
         margin: 30px auto 0 auto;
         padding: 20px 0 0 0 ;
     }
@@ -213,7 +218,8 @@ header h1, header h2{
         overflow-x: hidden;
         width: 100%;
         height: 600%;
-        margin: 0 auto;
+        margin: 30px auto;
+        font-size: 120%;
     }
     #grid{
         grid: 200px 200px 230px 200px 200px 150px / auto;
