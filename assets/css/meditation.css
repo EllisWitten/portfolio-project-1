@@ -6,6 +6,7 @@
     border: none;
 }
 body{
+    height: auto;
     font-family:  roboto, sans-serif;
     color: #3a3a3a;
     background: rgb(255,227,227) url(../images/pexels-scott-webb-213727.jpg) no-repeat center;
@@ -95,8 +96,8 @@ main > h2{
 
     background-color: rgba(249,227,227,0.5); 
     background-image: url(/assets/images/pexels-miriam-alonso-7592435.jpg);
-    background-position: left;
-    background-size: 130%;
+    background-position: center;
+    background-size: 180%;
     background-repeat: no-repeat;
 }
 #grid-item-2{
@@ -145,11 +146,14 @@ main > h2{
 }
 /* large laptop response */
 @media screen and (max-width:1440px){
-    #grid{
-        width:70%;
-    }
     #logo{
         margin-left: 220px;
+    }
+    #sign-up{
+        margin-right: 220px;
+    }
+    #grid{
+        width:70%;
     }
 }
 /* tablet and small laptop response */
@@ -164,8 +168,9 @@ main > h2{
         margin: 50px 40px auto 0;
     }
     main{
-        background: green;
+        /* background: green; */
         margin-top: 50px;
+        font-size: 120%;
     }
     #grid{
         /* grid: 200px 150px 100px / 200px 200px auto; */
@@ -193,15 +198,13 @@ main > h2{
         float: none;
         margin: 10px auto;
     }
-    main > h2{
-        margin-top: 50px;
-    }
     main{
         /* background-color: red; */
         overflow-x: hidden;
         width: 100%;
         height: 600%;
-        margin: 0 auto;
+        margin: 30px auto;
+        font-size: 120%;
     }
     #grid{
         grid: 200px 200px 230px 200px 200px 150px / auto;

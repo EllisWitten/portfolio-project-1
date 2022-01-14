@@ -170,6 +170,9 @@ header h1, header h2{
     #grid{
         width:70%;
     }
+    #grid-item-6{
+        width: 70%;
+    }
 }
 /* tablet and small laptop response */
 @media screen and (max-width:1024px){
@@ -188,10 +191,9 @@ header h1, header h2{
         font-size: 120%;
     }
     #grid{
-        /* grid: 200px 150px 100px / 200px 200px auto; */
         gap: 20px;
         width: 90%;
-        /* height: 300%; */
+        height: 60vh;
         margin: 30px auto 0 auto;
         padding: 20px 0 0 0 ;
     }
@@ -223,6 +225,7 @@ header h1, header h2{
     }
     #grid{
         grid: 200px 200px 230px 200px 200px 150px / auto;
+        grid-template-rows: max-content;
         column-gap: 40px;
         width: 80%;
         height: 300%;
