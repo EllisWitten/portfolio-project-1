@@ -148,15 +148,14 @@ header h1, header h2{
     margin-right: auto;
 }
 /* 4k repsonse */
-    #grid div{
-        font-size: 120%;
-    }
+@media screen and (max-width:2560px) {
     #logo{
-        margin-left: 520px;
+        margin-left: 320px;
     }
     #sign-up{
-        margin-right: 520px;
+        margin-right: 320px;
     }
+}
 /* large laptop response */
 @media screen and (max-width:1440px){
     #grid{
