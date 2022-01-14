@@ -6,11 +6,10 @@
     border: none;
 }
 body{
-    height: auto;
     font-family:  roboto, sans-serif;
     color: #3a3a3a;
-    background: rgb(255,227,227) url(../images/pexels-scott-webb-213727.jpg) no-repeat center;
-    background-size: cover;
+    background: #ffe3e3 url(../images/pexels-scott-webb-213727.jpg) no-repeat center;
+    background-size: auto;
 }
 /* header */
 header{
@@ -131,6 +130,9 @@ main > h2{
 }
 /* 4k repsonse */
 @media screen and (max-width:2560px) {
+    header{
+        font-size: 110%;
+    }
     #logo{
         margin-left: 520px;
         font-size: 350%;
@@ -146,6 +148,9 @@ main > h2{
 }
 /* large laptop response */
 @media screen and (max-width:1440px){
+    header{
+        font-size: 80%;
+    }
     #logo{
         margin-left: 220px;
     }
@@ -160,6 +165,7 @@ main > h2{
 @media screen and (max-width:1024px){
     header{
         height: 50px;
+        font-size: 90%;
     }
     #logo{
         margin: 30px 0 auto 40px;
@@ -176,7 +182,7 @@ main > h2{
         /* grid: 200px 150px 100px / 200px 200px auto; */
         gap: 20px;
         width: 90%;
-        /* height: 300%; */
+        height: 60vh;
         margin: 30px auto 0 auto;
         padding: 20px 0 0 0 ;
     }
@@ -208,6 +214,7 @@ main > h2{
     }
     #grid{
         grid: 200px 200px 230px 200px 200px 150px / auto;
+        grid-template-rows: max-content;
         column-gap: 40px;
         width: 80%;
         height: 300%;
