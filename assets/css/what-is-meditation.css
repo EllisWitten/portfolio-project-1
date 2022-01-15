@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap');
+@import "header.css";
 
 *{
     margin: 0;
@@ -10,43 +11,6 @@ body{
     font-family:  roboto, sans-serif;
     color: #3a3a3a;
     background: rgb(255,227,227) url(../images/pexels-skylar-kang-6044615.jpg) no-repeat center;
-}
-/* header */
-header{
-    height: 100px;
-    width: 100%;
-}
-header a:visited{
-    color: inherit;
-}
-header h1, header h2{
-    font-family: montserrat, sans-serif;
-    font-size: 150%;
-    margin-top: 75px;
-    background-color: rgba(225,227,227,.8);
-    border-radius: 20px;
-    padding: 5px;
-}
-#back-button{
-    float: left;
-    position: absolute;
-    top:10%;
-    left: 10%;
-}
-#logo{
-    float: left;
-    font-size: 260%;
-    margin-left: 20%;
-    cursor: pointer;
-}
-#sign-up{
-    float: right;
-    margin-right: 20%;
-    font-size: 120%;
-}
-#sign-up:hover{
-    text-decoration: underline;
-    cursor: pointer;
 }
 /* grid */
 main{
@@ -60,7 +24,7 @@ main{
     margin: auto;
     
     display: grid;
-    grid:100px auto / 100px 500px auto;
+    grid:5% 100% / 50% 50%;
     gap: 40px;
 }
 .grid-container div{
@@ -71,20 +35,20 @@ main{
     font-size: 300%;
 }
 .title{
-    grid-column: 2 / 4;
+    grid-column: 1 / 3;
     text-align: center;
     font-size: 130%;
     font-weight: 500;
 }
 .side-image{
     width: 100%;
-    grid-column: 2/3;
+    grid-column: 1/2;
     background: url(../images/pexels-pixabay-355863.jpg) no-repeat center;
     background-size: cover;
 }
 .side-text{
     width: 100%;
-    grid-column: 3/4;
+    grid-column: 2/3;
     font-size: 120%;
     padding: 10px;
 

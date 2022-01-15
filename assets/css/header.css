@@ -1,0 +1,31 @@
+header{
+    height: 100px;
+    width: 100%;
+}
+header a:visited{
+    color: inherit;
+}
+header h1, header h2{
+    font-family: montserrat, sans-serif;
+    font-size: 150%;
+    margin-top: 68px;
+    line-height: 40px;
+    background-color: rgba(225,227,227,.8);
+    border-radius: 20px;
+    padding: 5px;
+}
+#logo{
+    float: left;
+    font-size: 260%;
+    margin-left: 20%;
+    cursor: pointer;
+}
+#sign-up{
+    float: right;
+    margin-right: 20%;
+    font-size: 120%;
+}
+#sign-up:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

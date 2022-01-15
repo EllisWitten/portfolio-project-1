@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap');
+@import "header.css";
 
 *{
     margin: 0;
@@ -11,41 +12,19 @@ body{
     background: #ffe3e3 url(../images/pexels-anthony-shkraba-4612235.jpg) no-repeat center;
     background-size: cover;
 }
-/* header */
-header{
-    height: 100px;
-    width: 100%;
-}
-header a:visited{
-    color: inherit;
-}
-header h1, header h2{
-    font-family: montserrat, sans-serif;
-    font-size: 150%;
-    margin-top: 50px;
-    line-height: 50px;
+/* title */
+#title{
+    margin: 50px auto 0 auto;
+    text-align: center;
+    width: fit-content;
+    
+
+    font-size: 200%;
+    font-weight: 500;
     background-color: rgba(225,227,227,.8);
     border-radius: 20px;
     padding: 5px;
-}
-#logo{
-    float: left;
-    font-size: 260%;
-    margin-left: 20%;
-    cursor: pointer;
-}
-#sign-up{
-    float: right;
-    margin-right: 20%;
-    font-size: 120%;
-}
-#sign-up:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-/* title */
-main > h2{
-    margin: 60px auto 0 auto;
+    /* margin: 60px auto 0 auto;
     width: fit-content;
     height: fit-content;
     text-align: center;
@@ -53,7 +32,7 @@ main > h2{
     font-weight: 500;
     background-color: rgba(225,227,227,.8);
     border-radius: 20px;
-    padding: 5px;
+    padding: 5px; */
 }
 /* grid */
 #grid{
@@ -133,7 +112,7 @@ main > h2{
 /* double column design */
 @media screen and (max-width:950px) {
     body{
-        /* background-size: auto; */
+        background-size: auto;
     }
     #grid{
         grid: 33% 33% 33%/ 50% 50%;
@@ -183,9 +162,13 @@ main > h2{
         text-align: center;
         border-radius: 0;
     }
-    main h2{
-        margin-top: 50px;
-        /* line-height: 50px; */
+    #sign-up{
+        margin-top: 5px;
+    }
+    #title{
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
     }
     #grid{
         grid: auto auto auto auto auto auto / 100%;
