@@ -5,19 +5,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/sign-up.css">
     <title>Easy Life</title>
 </head>
 
 <body>
     <section>
         <header>
-            <h1 id=logo>Easy Life</h1>
-            <h2 id=sign-up>Sign-up</h2>
+            <a href="../index.html">
+                <h1 id="logo">Easy Life</h1>
+            </a>
+            <h2 id="sign-up">Sign-up</h2>
         </header>
     </section>
     <main>
+        <div id="sign-up-form">
+            <form>
+                <label for="f-name">First Name:</label>
+                <input type="text" name="first_name" id="f-name" placeholder="John" required>
+                <label for="l-name">Last Name:</label>
+                <input type="text" name="last_name" id="l-name" placeholder="Smith" required>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="JohnSmith@example.com" required>
+                <hr>
+                <h3>Select your sex:</h3>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="sex" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="sex" value="female">
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="sex" value="other">
+                <label for="pref-no">Prefer not to say</label>
+                <input type="radio" id="pref-no" name="sex" value="pref-no">
+                <hr><br>
+                <h3>Selcet your age group</h3>
+                <label for="-18">Less that 18</label>
+                <input type="radio" id="-18" name="age" value="-18">
+                <label for="18-24">18 to 24</label>
+                <input type="radio" id="18-24" name="age" value="18-24">
+                <label for="25-39">25 to 39</label>
+                <input type="radio" id="25-39" name="age" value="25-39">
+                <label for="40-60">40 o 60</label>
+                <input type="radio" id="40-60" name="age" value="40-60">
+                <label for="60+">Over 60</label>
+                <input type="radio" id="60+" name="age" value="60+">
 
+            </form>
+        </div>
     </main>
     <footer>
 
