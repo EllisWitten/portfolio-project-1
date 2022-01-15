@@ -21,36 +21,49 @@
     <main>
         <div id="sign-up-form">
             <form>
-                <input type="text" name="first_name" id="f-name" class="names" placeholder="First Name" required>
+                <div class="input-container">
+                    <input type="text" name="first_name" id="f-name" class="names" placeholder="First Name" required>
+                    <br>
+                </div>
+                <div class="input-container">
+                    <input type="text" name="last_name" id="l-name" class="names" placeholder="Last Name" required>
+                </div>
                 <br>
-                <input type="text" name="last_name" id="l-name" class="names" placeholder="Last Name" required>
+                <div class="input-container">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" name="email" id="email" class="names" placeholder="Email Address" required>
+                </div>
                 <br>
-                <input type="email" name="email" id="email" class="names" placeholder="Email Adress" required>
-                
+                <div class="input-container">
+                    <i class="fas fa-unlock-alt"></i>
+                    <input type="password" name="password" id="password" class="names" placeholder="Password*" required>
+                </div>
                 <hr>
-                
                 <h3>Select your sex:</h3>
-                <label for="male">Male</label>
-                <input type="radio" id="male" name="sex" value="male">
-                <label for="female">Female</label>
-                <input type="radio" id="female" name="sex" value="female">
-                <label for="other">Other</label>
-                <input type="radio" id="other" name="sex" value="other">
-                <label for="pref-no">Prefer not to say</label>
-                <input type="radio" id="pref-no" name="sex" value="pref-no">
-                <hr><br>
+                <div class="radio-container">
+                    <label class="radio" for="male">Male</label>
+                    <input type="radio" id="male" name="sex" value="male">
+                    <label class="radio" for="female">Female</label>
+                    <input type="radio" id="female" name="sex" value="female">
+                    <label class="radio" for="other">Other</label>
+                    <input type="radio" id="other" name="sex" value="other">
+                    <label class="radio" for="pref-no">Prefer not to say</label>
+                    <input type="radio" id="pref-no" name="sex" value="pref-no">
+                </div>
+                <hr>
                 <h3>Selcet your age group</h3>
-                <label for="-18">Less that 18</label>
-                <input type="radio" id="-18" name="age" value="-18">
-                <label for="18-24">18 to 24</label>
-                <input type="radio" id="18-24" name="age" value="18-24">
-                <label for="25-39">25 to 39</label>
-                <input type="radio" id="25-39" name="age" value="25-39">
-                <label for="40-60">40 o 60</label>
-                <input type="radio" id="40-60" name="age" value="40-60">
-                <label for="60+">Over 60</label>
-                <input type="radio" id="60+" name="age" value="60+">
-
+                <div class="radio-container">
+                    <label class="radio" for="-18">Less that 18</label>
+                    <input type="radio" id="-18" name="age" value="-18">
+                    <label class="radio" for="18-24">18 to 24</label>
+                    <input type="radio" id="18-24" name="age" value="18-24">
+                    <label class="radio" for="25-39">25 to 39</label>
+                    <input type="radio" id="25-39" name="age" value="25-39">
+                    <label class="radio" for="40-60">40 o 60</label>
+                    <input type="radio" id="40-60" name="age" value="40-60">
+                    <label class="radio" for="60+">Over 60</label>
+                    <input type="radio" id="60+" name="age" value="60+">
+                </div>
             </form>
         </div>
     </main>
@@ -60,3 +73,4 @@
 </body>
 
 </html>
+<script src="https://kit.fontawesome.com/cc842db5d3.js" crossorigin="anonymous"></script>

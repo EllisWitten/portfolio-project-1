@@ -19,6 +19,7 @@ header h1, header h2{
     font-size: 260%;
     margin-left: 20%;
     cursor: pointer;
+    letter-spacing: 5px;
 }
 #sign-up{
     float: right;
