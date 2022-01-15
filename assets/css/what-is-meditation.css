@@ -14,23 +14,34 @@ body{
 /* header */
 header{
     height: 100px;
+    width: 100%;
 }
 header a:visited{
     color: inherit;
 }
 header h1, header h2{
     font-family: montserrat, sans-serif;
-    line-height: 125px;
+    font-size: 150%;
+    margin-top: 75px;
+    background-color: rgba(225,227,227,.8);
+    border-radius: 20px;
+    padding: 5px;
+}
+#back-button{
+    float: left;
+    position: absolute;
+    top:10%;
+    left: 10%;
 }
 #logo{
     float: left;
     font-size: 260%;
-    margin-left: 200px;
+    margin-left: 20%;
     cursor: pointer;
 }
 #sign-up{
     float: right;
-    margin-right: 200px;
+    margin-right: 20%;
     font-size: 120%;
 }
 #sign-up:hover{
