@@ -29,7 +29,7 @@ main{
     margin: auto;
     
     display: grid;
-    grid:5% 100% / 50% 50%;
+    grid:10% 100% / 50% 50%;
     gap: 40px;
 }
 .grid-container div{
