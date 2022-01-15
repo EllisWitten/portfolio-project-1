@@ -43,7 +43,7 @@ body{
     transition-duration: 0.3s;
 }
 [id^="grid-item-"]:hover{
-    filter: drop-shadow(0 0 8px rgb(250, 189, 189));
+    filter: drop-shadow(0 0 8px #3a3a3a);
     z-index: 0;
     transition-duration: 0.3s;
 }
