@@ -25,12 +25,12 @@ body{
     font-size: 110%;
 }
 #sign-up-form input[type="text"], input[type="email"], input[type="password"]{
-    width: 100%;
+    width: 92%;
     display: block;
     border-radius: 20px;
     padding: 5px;
     margin: 5px auto;
-    /* padding-left: 5%; */
+    padding-left: 5%;
     border: 2px solid rgb(124, 124, 124);
 }
 #sign-up-form input[type="text"]:focus, input[type="email"]:focus{
