@@ -1,2 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap');
 @import "header.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    font-family:  roboto, sans-serif;
+    color: #3a3a3a;
+    /* background: #ffe3e3 url(../images/pexels-anthony-shkraba-4612235.jpg) no-repeat center; */
+    background-size: cover;
+}
+/* form */
+#sign-up-form{
+    width: 50%;
+    margin: 100px auto;
+
+    background: rgba(225,227,227,.4);
+    border-radius: 20px;
+    padding: 5px;
+    padding-top: 30px;
+    border: 0 none;
+}
+#sign-up-form input{
+    width: 60%;
+    display: block;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px auto;
+    padding-left: 5%;
+    border: 2px solid rgb(124, 124, 124);
+}
+#sign-up-form input:focus{
+    filter: drop-shadow(0 0 8px #3a3a3a);
+    transition-duration: 0.3s;
+}
+.names::placeholder {
+    color: rgba(0,0,0,.7);
+}
