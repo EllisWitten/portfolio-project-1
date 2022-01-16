@@ -55,6 +55,7 @@ main{
     background: url(../images/pexels-pixabay-355863.jpg) no-repeat center;
     background-size: cover;
     border-radius: 20px;
+    border: 2px solid rgb(124, 124, 124);
 }
 .side-text{
     width: 100%;
@@ -62,8 +63,9 @@ main{
     font-size: 120%;
     padding: 10px;
     border-radius: 20px;
+    border: 2px solid rgb(124, 124, 124);
 
-    background: rgba(255,227,227,.8);
+    background: rgba(255,227,227,1);
 }
 .side-text h3{
     text-align: center;
