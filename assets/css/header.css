@@ -10,7 +10,8 @@ header h1, header h2{
     font-size: 150%;
     margin-top: 68px;
     line-height: 40px;
-    background-color: rgba(225,227,227,.8);
+    background-color: rgba(225,227,227,1);
+    border-bottom: 2px solid rgb(124, 124, 124);
     border-radius: 20px;
     padding: 5px;
 }
