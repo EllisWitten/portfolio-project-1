@@ -36,6 +36,7 @@ body{
 [id^="grid-item-"]:hover{
     filter: drop-shadow(0 0 8px #3a3a3a);
     transition-duration: 0.3s;
+    margin: -8px -8px;
 }
 .page-link{
     width: 100%;
