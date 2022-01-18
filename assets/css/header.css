@@ -2,9 +2,6 @@ header{
     height: 100px;
     width: 100%;
 }
-header a:visited{
-    color: inherit;
-}
 header h1, header h2{
     font-family: montserrat, sans-serif;
     font-size: 150%;
@@ -14,6 +11,9 @@ header h1, header h2{
     border-bottom: 2px solid rgb(124, 124, 124);
     border-radius: 20px;
     padding: 5px;
+}
+header a:visited{
+    color: inherit;
 }
 #logo{
     float: left;
