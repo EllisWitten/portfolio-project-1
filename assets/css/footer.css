@@ -1,110 +1,44 @@
-
-#ball{
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border-radius: 50%;
-    position: absolute;
-    top: 92.7%;
-    left: 0 ;
-
-    animation-name: ball;
-    animation-duration: 4.5s;
-    animation-iteration-count:infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
+footer{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    top: 95%;
+    background-color: rgba(180,182,182,1);
+    /* filter: blur(2px); */
 }
-#ball2{
-    width: 10px;
-    height: 10px;
-    background-color: green;
-    border-radius: 50%;
-    position: absolute;
-    top: 92.7%;
-    left: 0 ;
-
-    animation-name: ball;
-    animation-duration: 4.5s;
-    animation-delay: 0.1s;
-    animation-iteration-count:infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
+#list-container{
+    display: table;
+    margin: 0 auto;
 }
-#ball3{
-    width: 10px;
-    height: 10px;
-    background-color: blue;
-    border-radius: 50%;
-    position: absolute;
-    top: 92.7%;
-    left: 0 ;
-
-    animation-name: ball;
-    animation-duration: 4.5s;
-    animation-delay: 0.2s;
-    animation-iteration-count:infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
+#footer-list{
+   list-style: none;
+   padding-top: 0;
+   width: 100%;
 }
-#ball4{
-    width: 10px;
-    height: 10px;
-    background-color: yellow;
-    border-radius: 50%;
-    position: absolute;
-    top: 92.7%;
-    left: 0 ;
-
-    animation-name: ball;
-    animation-duration: 4.5s;
-    animation-delay: 0.3s;
-    animation-iteration-count:infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
+#footer-list li{
+    display: inline;
+    margin: 0 11.5%;
 }
-@keyframes ball{
-    0%{
-        left:0;
-        top:90%;
-    }
-    10%{
-        left:10%;
-        top:94%;
-    }
-    20%{
-        left: 20%;
-        top:90%;
-    }
-    30%{
-        left: 30%;
-        top:94%;
-    }
-    40%{
-        left:40%;
-        top:90%;
-    }
-    50%{
-        left: 50%;
-        top:94%;
-    }
-    60%{
-        left: 60%;
-        top:90%;
-    }
-    70%{
-        left: 70%;
-        top:94%;
-    }
-    80%{
-        left: 80%;
-        top:90%;
-    }
-    90%{
-        left: 90%;
-        top:94%;
-    }
-    100%{
-        left:95%;
-        top:90%;
-    }
+.curve-container{
+    position: relative;
+    width: 100%;
+}
+.curve{
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    top:0;
+}
+.curve::before{
+    position: absolute;
+    display: block;
+    content: ' ';
+    width: 110%;
+    height: 80%;
+    border-radius: 100% 100%;
+    background-color:  rgba(225,227,227,1);
+    transform: translate(-5%,-50%);
+    filter: drop-shadow(0 -10px 10px #303030);
+    filter: blur(1px);
+    z-index: -2;
 }
