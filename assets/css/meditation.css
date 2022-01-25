@@ -109,6 +109,7 @@ body{
 @media screen and (max-width:950px) {
     body{
         background-size: auto;
+        margin-bottom: 300px;
     }
     #grid{
         grid: 33% 33% 33%/ 50% 50%;

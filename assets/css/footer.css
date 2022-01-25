@@ -21,7 +21,7 @@ footer table tr td{
 footer:after{
     position: absolute;
     z-index: -1;
-    border: 2px solid black;
+    filter: drop-shadow( 0 0 2px black);
     content: ' ';
     display: block;
     background-color: rgb(201, 201, 201);

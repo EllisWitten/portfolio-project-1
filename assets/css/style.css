@@ -123,6 +123,9 @@ body{
 }
 /* double column design */
 @media screen and (max-width:950px) {
+    body{
+        margin-bottom: 110px;
+    }
     #grid{
         grid: 33% 33% 33%/ 50% 50%;
     }
