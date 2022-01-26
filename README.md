@@ -81,3 +81,9 @@ My website is designed to be as simple and as easy to navigate as possible which
 
 
 ### Validator Testing
+
+    - 1 error running through HTML error, not accepting script tag
+    
+    - No errors found on CSS validation
+    
+  
