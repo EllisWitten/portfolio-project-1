@@ -12,7 +12,7 @@ body{
     color: #3a3a3a;
     background: rgb(255,227,227) url(../images/pexels-pixabay-158756.jpg) no-repeat center;
     background-size: auto;
-    height: 100%;
+    height: 130%;
 }
 /* grid */
 
@@ -162,6 +162,9 @@ body{
 }
 /* single column design */
 @media screen and (max-width:713px) {
+    body{
+        margin-bottom: 580px;
+    }
     header{
         display: block;
         width: 100%;
@@ -174,7 +177,7 @@ body{
         border-radius: 0;
     }
     #grid{
-        grid: auto auto auto auto auto auto / 100%;
+        grid: auto auto auto auto auto auto/ 100%;
         grid-template-rows: min-content;
     }
     #grid .left, #grid .right{
@@ -198,5 +201,6 @@ body{
     }
     #grid-item-6{
         grid-row: 6/7;
+        height: 147px;
     }
 }
